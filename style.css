@@ -1,0 +1,269 @@
+.callme{
+    height: 650px;
+    background-image: url(asset/me3.JPG);
+    background-size: cover;
+    background-position: center;
+}
+.callme h1{
+    font-family: calisto MT;
+    font-size:64px;
+}
+
+.callme p{
+    margin-top: 25px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.callme .btn{
+    bottom:  20px;
+}
+
+.copy{
+    transform: rotate(-90deg);
+    font-size: 10px;
+    width: 100px;
+}
+
+.kata{
+    font-family: calisto MT;
+    font-size: 20px;
+}
+
+.photography{
+    height: 650px;
+    background-image: url(asset/Ade2.JPG);
+    background-size: cover;
+}
+
+.photography h1{
+    font-family: calisto MT;
+    letter-spacing: 10px;
+    font-size:110px;
+}
+
+
+
+.photography .btn{
+    bottom:  20px;
+    left:40%;
+}
+
+.over-img{
+    background-image: url(asset/me5.JPG);
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+
+.img-insipire{
+    background-image: url(asset/me1.JPG);
+    background-size: cover;
+    background-position: center;
+    width:700px;
+    height:300px;
+
+    position: absolute;
+    top:60%;
+    left:0;
+    z-index: -99;
+}
+
+.footer{
+    font-family: calisto MT;
+    color: black;
+}
+
+.photography p{
+    display: none;
+    font-family: calisto MT;
+    height: 100%;
+    letter-spacing: 15px;
+    font-size:35px;
+    transform: rotate(-90deg);
+}
+
+@media only screen and (max-width: 992px){
+    .photography h1{
+        font-size: 75px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .photography h1{
+        display: none;
+    }
+
+    .photography p{
+        display: flex;
+    }
+
+    .img-insipire{
+        position: static;
+        top:0;
+        left:0;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .kata{
+        font-size: 13px !important;
+    }
+
+    .footer p{
+        font-size: 10px;
+    }
+
+    .footer span{
+        font-size: larger;
+    }
+}
+
+/* About */
+.container-content-about{
+    background-image: url(asset/me3.JPG);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Gallery . Photopraphy */
+
+.container-gallery{
+    background-image: url(asset/me3.JPG);
+    background-size: cover;
+    background-position: top;
+}
+
+.img-1{
+    background-image: url(asset/Kucing1.png);
+    background-size:cover;
+    background-position:top;
+}
+
+.img-2{
+    background-image: url(asset/sky.png);
+    background-size:cover;
+    background-position:bottom;
+}
+
+.img-3{
+    background-image: url(asset/Kucing2.png);
+    background-size:cover;
+    background-position:center;
+}
+
+.img-4{
+    background-image: url(asset/Nisa.png);
+    background-size:cover;
+    background-position:center;
+}
+
+.img-5{
+    background-image: url(asset/kayu1.png);
+    background-size:cover;
+    background-position:center;
+}
+
+.img-6{
+    background-image: url(asset/Buya&BuFatin.png);
+    background-size:cover;
+    background-position:center;
+}
+
+.img-7{
+    background-image: url(asset/Ade2.JPG);
+    background-size:cover;
+    background-position:center;
+}
+
+.img-8{
+    background-image: url(asset/Yaya.png);
+    background-size:cover;
+    background-position:center;
+}
+
+.img-9{
+    background-image: url(asset/Ade1.png);
+    background-size:cover;
+    background-position:center;
+}
+
+.img-10{
+    background-image: url(asset/Lia.png);
+    background-size:cover;
+    background-position:center;
+}
+
+.img-11{
+    background-image: url(asset/Las.png);
+    background-size:cover;
+    background-position:center;
+}
+
+.img-12{
+    background-image: url(asset/ngopi1.png);
+    background-size:cover;
+    background-position:center;
+}
+
+.img-13{
+    background-image: url(asset/ngopi3.png);
+    background-size:cover;
+    background-position:center;
+}
+
+.img-14{
+    background-image: url(asset/pelek.png);
+    background-size:cover;
+    background-position:center;
+}
+
+.img-15{
+    background-image: url(asset/ngopi4.png);
+    background-size:cover;
+    background-position:center;
+}
+
+.img-16{
+    background-image: url(asset/Acong2.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+.img-17{
+    background-image: url(asset/Acong3.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+.img-18{
+    background-image: url(asset/Acong1.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+
+.img-1:hover, 
+.img-2:hover,
+.img-3:hover,
+.img-4:hover,
+.img-5:hover,
+.img-6:hover,
+.img-7:hover,
+.img-8:hover,
+.img-9:hover,
+.img-10:hover,
+.img-11:hover, 
+.img-12:hover,
+.img-13:hover,
+.img-14:hover,
+.img-15:hover,
+.img-16:hover,
+.img-17:hover,
+.img-18:hover{
+    opacity: 0.5;
+}
